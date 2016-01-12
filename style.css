@@ -1,0 +1,151 @@
+* { Box-sizing: Border-box }
+body{
+  background-image: url("http://www.designbolts.com/wp-content/uploads/2012/11/Dark-Asfalt-Pattern-for-Website-Background.jpg");
+  background-attachment: fixed;
+  background-size:auto;
+  background-position: right top;
+}
+.container{
+  max-width:980px;
+  width:100%;
+  margin:auto;
+  }
+.navbar{
+  max-width:980px;
+  width:100%;
+  margin:auto;
+  text-decoration:none;
+  background-color:#000000;
+  color:#ffffff;
+  padding:10px;
+  margin-top:25px;
+  position:relative;
+  z-index: 4;
+}
+.navtabs{
+    float:right;
+    margin-top:25px;
+}
+.links{
+    margin:0 25px;
+    text-decoration:none;
+    color:#0645AD;
+  }
+  .links:visited{
+    color:#0645AD;
+  }
+.header{
+  max-width:980px;
+  width:100%;
+  margin:auto;
+  text-decoration:none;
+  background-color:#000000;
+  color:#ffffff;
+  padding:10px;
+  z-index:3;
+  position: relative;
+
+}
+.headerpics{
+  max-width:980px;
+  width:100%;
+  padding:5px;
+}
+.hobbies{
+  width:100%;
+  margin-top:-100px;
+  text-align:center;
+  font-size:30px;
+  background-color:#333333;
+  color:#B8B8B8;
+  padding:50px;
+  position: relative;
+  transform: skewY(10deg);
+  z-index:2;
+}
+.text{
+  font-size: 17px;
+  text-align:left;
+  padding:20px;
+  margin: 100px;
+  transform: skewY(-10deg);
+  color: #CCCCCC;
+  z-index:2;
+  position: relative;
+}
+.hobbylink{
+  text-decoration: none;
+  font-size: 17px;
+  color: inherit;
+}
+.hobbylink:hover{
+  color:#000099;
+}
+
+
+
+.dreams{
+  width:100%;
+  margin-top:-175px;
+  text-align:center;
+  font-size:30px;
+  background-color:#CCCCCC;
+  color:#B8B8B8;
+  padding:50px;
+  position: relative;
+  transform: skewY(-10deg);
+  z-index:1;
+}
+.text2{
+  font-size: 18px;
+  text-align: left;
+  padding:20px;
+  margin: 125px;
+  transform: skewY(10deg);
+  color: #333333;
+}
+.dream{
+  text-decoration: none;
+  font-size: 17px;
+  color: inherit;
+}
+.dream:hover{
+    color:#000099;
+}
+.hobbies2{
+  width:100%;
+  margin-top:-175px;
+  text-align:center;
+  font-size:30px;
+  background-color:#333333;
+  color:#B8B8B8;
+  padding:50px;
+  position: relative;
+  transform: skewY(10deg);
+  z-index:0;
+}
+.hobbylink2{
+  text-decoration: none;
+  font-size: 17px;
+  color: inherit;
+}
+.hobbylink2:hover{
+  color:#000099;
+}
+.text3{
+  font-size: 17px;
+  text-align:left;
+  padding:20px;
+  margin: 175px;
+  transform: skewY(-10deg);
+  color: #CCCCCC;
+  z-index:2;
+  position: relative;
+}
+.project{
+  text-decoration:none;
+  color: inherit;
+}
+.project:hover{
+  color:#000099;
+}
